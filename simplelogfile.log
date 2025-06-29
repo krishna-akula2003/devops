@@ -1,0 +1,55 @@
+[2025-06-29 09:00:01] INFO  Starting backup process...
+[2025-06-29 09:00:02] DEBUG Checking disk space...
+[2025-06-29 09:00:03] INFO  Disk space available: 250GB
+[2025-06-29 09:00:05] INFO  Archiving user data...
+[2025-06-29 09:00:07] WARN  Some files were skipped due to permission issues
+[2025-06-29 09:00:09] INFO  Archive completed successfully
+[2025-06-29 09:00:10] INFO  Uploading backup to remote server...
+[2025-06-29 09:00:15] INFO  Upload progress: 25%
+[2025-06-29 09:00:20] INFO  Upload progress: 50%
+[2025-06-29 09:00:25] INFO  Upload progress: 75%
+[2025-06-29 09:00:30] ERROR Upload failed: Connection timeout
+[2025-06-29 09:00:35] INFO  Retrying upload...
+[2025-06-29 09:00:40] INFO  Upload progress: 20%
+[2025-06-29 09:00:45] INFO  Upload progress: 40%
+[2025-06-29 09:00:50] INFO  Upload progress: 60%
+[2025-06-29 09:00:55] INFO  Upload progress: 80%
+[2025-06-29 09:01:00] INFO  Upload completed successfully
+[2025-06-29 09:01:05] INFO  Verifying backup integrity...
+[2025-06-29 09:01:10] INFO  Backup verified successfully
+[2025-06-29 09:01:15] INFO  Cleaning up temporary files...
+[2025-06-29 09:01:20] INFO  Cleanup complete
+[2025-06-29 09:01:25] INFO  Backup job finished
+
+[2025-06-29 09:02:00] INFO  Starting system update...
+[2025-06-29 09:02:10] DEBUG Checking for available updates...
+[2025-06-29 09:02:20] INFO  Found 5 packages to update
+[2025-06-29 09:02:30] INFO  Downloading updates...
+[2025-06-29 09:02:45] INFO  Update 1/5 completed
+[2025-06-29 09:03:00] INFO  Update 2/5 completed
+[2025-06-29 09:03:15] ERROR Failed to install update 3/5: Package conflict
+[2025-06-29 09:03:20] WARN  Skipping update 3/5
+[2025-06-29 09:03:30] INFO  Update 4/5 completed
+[2025-06-29 09:03:45] INFO  Update 5/5 completed
+[2025-06-29 09:04:00] INFO  System update completed with warnings
+
+[2025-06-29 09:04:30] INFO  Monitoring service started
+[2025-06-29 09:04:35] DEBUG Checking CPU usage...
+[2025-06-29 09:04:40] INFO  CPU usage: 45%
+[2025-06-29 09:04:45] DEBUG Checking memory usage...
+[2025-06-29 09:04:50] INFO  Memory usage: 2.5GB / 8GB
+[2025-06-29 09:04:55] DEBUG Checking disk I/O...
+[2025-06-29 09:05:00] INFO  Disk I/O: Read 150MB, Write 200MB
+[2025-06-29 09:05:05] INFO  Network traffic: 120MB inbound, 90MB outbound
+[2025-06-29 09:05:10] WARN  High memory usage detected
+[2025-06-29 09:05:15] INFO  Sending alert to admin@example.com
+[2025-06-29 09:05:20] INFO  Monitoring cycle completed
+
+[2025-06-29 09:06:00] INFO  Starting nightly cleanup job...
+[2025-06-29 09:06:05] INFO  Deleting temp files older than 7 days...
+[2025-06-29 09:06:10] INFO  2500 files deleted
+[2025-06-29 09:06:15] INFO  Cleaning old logs...
+[2025-06-29 09:06:20] INFO  15 old logs archived
+[2025-06-29 09:06:25] INFO  Cleanup job completed
+
+[2025-06-29 09:07:00] INFO  Daily tasks complete. System idle.
