@@ -1,0 +1,4 @@
+Hello World! Welcome to the DevOps repository.
+
+This is a simple greeting message added to demonstrate basic file operations.
+Have a great day!
